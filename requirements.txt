@@ -1,2 +1,4 @@
 logging
 telethon
+psycopg2
+pandas
