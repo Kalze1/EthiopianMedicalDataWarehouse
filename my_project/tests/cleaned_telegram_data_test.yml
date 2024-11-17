@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: cleaned_telegram_data
+    tests:
+      - not_null:
+          column_name: message_id
+      - unique:
+          column_name: message_id
