@@ -1,4 +1,24 @@
-logging
-telethon
-psycopg2
-pandas
+# Core Python packages
+fastapi==0.95.2
+uvicorn==0.22.0
+
+# Database packages
+sqlalchemy==2.0.16
+psycopg2-binary==2.9.6
+pydantic==1.10.7
+
+# YOLO and Object Detection
+torch==2.0.1
+torchvision==0.15.2
+opencv-python==4.7.0.72
+
+# Telegram Scraping
+telethon==1.29.0
+
+# Data Transformation and Analytics
+pandas==2.0.3
+dbt-core==1.8.8
+dbt-postgres==1.8.8
+
+# Logging and Monitoring
+loguru==0.6.0
